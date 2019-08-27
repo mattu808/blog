@@ -1,0 +1,10 @@
+<h1>Blog Pages</h1>
+<% @pages.each do |page| %>
+  <%= link_to 'Show Page', page_path(page) %>
+<% end %>
+
+<%= link_to 'New Page', new_page_path %>
+
+<!-- <%  %> - Non echoing tag -->
+<!-- <%= %> - Echoing tag -->
+
